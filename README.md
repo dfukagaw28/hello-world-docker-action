@@ -16,8 +16,10 @@ See https://help.github.com/actions/automating-your-workflow-with-github-actions
 
 The time we greeted you.
 
-## 使用例
+## Example usage
 
+```
 uses: actions/hello-world-docker-action@v1
 with:
   who-to-greet: 'Mona the Octocat'
+```
