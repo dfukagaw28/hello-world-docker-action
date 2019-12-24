@@ -1,20 +1,20 @@
 # Hello world docker action
 
-このアクションは"Hello World"もしくは"Hello" + ログに挨拶する人物名を出力します。
+This action prints "Hello World" or "Hello" + the name of a person to greet to the log.
 
-See https://help.github.com/ja/actions/automating-your-workflow-with-github-actions/creating-a-docker-container-action
+See https://help.github.com/actions/automating-your-workflow-with-github-actions/creating-a-docker-container-action
 
 ## Inputs
 
 ### `who-to-greet`
 
-**必須** 挨拶する相手の名前。 デフォルトは `"World"`。
+**Required** The name of the person to greet. Default `"World"`.
 
-## 出力
+## Outputs
 
 ### `time`
 
-挨拶した時間。
+The time we greeted you.
 
 ## 使用例
 
