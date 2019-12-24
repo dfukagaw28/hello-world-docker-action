@@ -19,7 +19,7 @@ The time we greeted you.
 ## Example usage
 
 ```
-uses: actions/hello-world-docker-action@v1
+uses: dfukagaw28/hello-world-docker-action@v1
 with:
   who-to-greet: 'Mona the Octocat'
 ```
